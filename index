@@ -5,9 +5,24 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
   <link rel="stylesheet" media="screen" href="css/reset.css" />
-  <link rel="stylesheet" media="screen" href="css/screen.css" />
+  <link rel="stylesheet" media="screen" href="css/style.css" />
 </head>
 <body>
-
+    <!-- heading --> 
+    <h1>N0t a sCaM!!1! y0uR c0mPUteR i5 iN dAnGeR !!!!!</h1>
+    <!-- form-->
+	<form method="get" action="#null" autocomplete="on">
+    <div id="container">
+      <label for="name">Name</label>
+      <input type="text" name="first_name" id="name" class="fontsize"  placeholder="First" autocomplete="given-name">
+      <input type="text" name="last_name" id="name" class="fontsize" placeholder="Last" autocomplete="family-name">
+      <label for="email">Email</label>
+      <input type="email" name="email_data" id="email" class="fontsize">
+      <div id="submit">
+        <input type="submit" value="Submit" class="fontsize">
+      </div>
+    </div>
+	</form>
 </body>
+</html>
 </html>
