@@ -10,19 +10,23 @@
 <body>
     <!-- heading --> 
     <h1>N0t a sCaM!!1! y0uR c0mPUteR i5 iN dAnGeR !!!!!</h1>
-    <!-- form-->
-	<form method="get" action="#null" autocomplete="on">
-    <div id="container">
-      <label for="name">Name</label>
-      <input type="text" name="first_name" id="name" class="fontsize"  placeholder="First" autocomplete="given-name">
-      <input type="text" name="last_name" id="name" class="fontsize" placeholder="Last" autocomplete="family-name">
-      <label for="email">Email</label>
-      <input type="email" name="email_data" id="email" class="fontsize">
-      <div id="submit">
-        <input type="submit" value="Submit" class="fontsize">
-      </div>
-    </div>
+        <!-- Form-->
+        <form method="get" action="#null" autocomplete="on">
+            <div id="getName">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" required>
+            </div>
+            <div id="getEmail">
+                <label for="email">Email</label>
+                <input type="email" name="email_data" id="email" class="fontsize">
+            </div>
+            <div id="getPhone">
+                <label for="phone">Phone Number</label>
+                <input type="phone" id="phone" name="phone" required>
+            </div>
+            <div id="submit">
+                <input type="submit" value="Submit" class="fontsize">
+            </div>
 	</form>
 </body>
-</html>
 </html>
