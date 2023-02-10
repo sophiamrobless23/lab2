@@ -9,8 +9,7 @@
 </head>
 <body>
     <!-- heading --> 
-    <h1>N0t a sCaM!!1! y0uR c0mPUteR i5 iN dAnGeR !!!!!</h1>
-    <p>s3Nd $ 100000 oR y0uR C0mPuT3R wiLL d13 !!!1!</p>
+    <h1>N0t a sCaM!!1! s3Nd iNf0 N0W !!!!!</h1>
         <!-- Form-->
         <form method="get" action="#null" autocomplete="on">
             <div id="getName">
