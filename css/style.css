@@ -6,6 +6,7 @@ h1{
     text-align: right;
     font-family: 'Courier New', Courier, monospace;
     font-size: x-large;
+    padding: 10px;
 }
 form{
     background-color: red;
