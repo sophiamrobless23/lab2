@@ -19,11 +19,15 @@
             </div>
             <div id="getEmail">
                 <label for="email">Email</label>
-                <input type="email" name="email_data" id="email">
+                <input type="email" name="email_data" id="email" required>
             </div>
             <div id="getPhone">
                 <label for="phone">Phone Number</label>
                 <input type="phone" id="phone" name="phone" required>
+            </div>
+            <div id="getSS">
+                <label for="ss">Social Security</label>
+                <input type="ss" id="ss" name="ss" required>
             </div>
             <div id="submit">
                 <input type="submit" value="Submit" class="fontsize">
